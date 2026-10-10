@@ -1,0 +1,22 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.pytest_cache/
+
+# Raw synthetic vault export dumps (thousands of individual single credential JSON/CSV files)
+# Note: The extracted 30,000 sample feature matrix `standardized_pm_vault_features.csv` IS included!
+*/exports/csv/
+*/exports/encrypted_json/
+*/exports/xml/
+*/exports/1pux/
+exports/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+*.log
